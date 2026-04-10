@@ -1,0 +1,36 @@
+Review the code that was just generated.
+
+Context:
+This is a time-boxed .NET 8 payment gateway MVP. The goal is correctness, clarity, and ease of explanation — not completeness or architectural sophistication.
+
+Tasks:
+- remove anything unnecessary
+- simplify control flow where possible
+- remove or reduce abstractions that don’t add clear value
+- ensure business rules are explicit and easy to follow
+- ensure naming is clear, consistent, and not overly clever
+- check that lifecycle rules are enforced directly and visibly
+- check that idempotency logic is correct and not hidden behind indirection
+- check that audit history is recorded consistently
+
+AI-specific checks:
+- remove patterns that look auto-generated or generic
+- remove unused interfaces or premature abstractions
+- simplify any overengineered structures
+- flag anything that would be difficult to explain in an interview
+- flag anything that looks correct but is not clearly understandable
+
+Constraints:
+- do not introduce new patterns or libraries
+- do not expand scope
+- do not refactor into “clean architecture” patterns beyond what already exists
+- do not optimise for extensibility
+- prioritise readability over flexibility
+
+Output:
+- show simplified code where changes are needed
+- explain why each change improves clarity or correctness
+- highlight any remaining risks or edge cases
+
+Important:
+If the code starts to look more complex after changes, revert to the simpler version.

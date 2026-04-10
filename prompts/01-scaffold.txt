@@ -1,0 +1,10 @@
+Phase 1: Scaffold solution
+
+Create:
+- Api
+- Core
+- Infrastructure
+- Tests
+
+No business logic yet.
+Keep clean and minimal.

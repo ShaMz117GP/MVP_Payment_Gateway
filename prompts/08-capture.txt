@@ -1,0 +1,7 @@
+Phase 8: Capture
+
+POST /payments/{id}/capture
+
+- Only after authorisation
+- Update state
+- Log history

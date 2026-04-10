@@ -1,0 +1,19 @@
+We are building a 4-hour MVP payment gateway in .NET 8.
+
+Goal:
+- Correct behaviour
+- Clear logic
+- Easy to explain
+
+Do NOT:
+- Overengineer
+- Add unnecessary patterns
+- Build beyond scope
+
+Focus:
+1. Idempotency
+2. Lifecycle rules
+3. Audit trail
+4. Processor simulation
+
+Keep everything simple and explicit.

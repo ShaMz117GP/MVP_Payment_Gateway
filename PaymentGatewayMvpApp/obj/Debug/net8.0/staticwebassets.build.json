@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LKlfwOZ++v4KGTezhzGsR7aXBfo6p7voAEOUVF+hALI=",
+  "Source": "PaymentGatewayMvpApp",
+  "BasePath": "_content/PaymentGatewayMvpApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

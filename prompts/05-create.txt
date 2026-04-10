@@ -1,0 +1,10 @@
+Phase 5: Create Payment
+
+POST /payments
+
+- Validate input
+- Create payment
+- Store history
+- Apply idempotency
+
+No authorisation yet.

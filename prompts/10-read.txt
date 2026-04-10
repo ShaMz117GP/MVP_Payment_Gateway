@@ -1,0 +1,6 @@
+Phase 10: Read
+
+GET /payments/{id}
+GET /payments/{id}/history
+
+No search/list.

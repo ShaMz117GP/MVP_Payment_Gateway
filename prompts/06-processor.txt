@@ -1,0 +1,10 @@
+Phase 6: Processor Simulation
+
+Create fake processor:
+- success
+- decline
+- timeout
+
+Allow deterministic mode via header.
+
+Keep simple.

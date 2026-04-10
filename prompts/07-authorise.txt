@@ -1,0 +1,10 @@
+Phase 7: Authorise
+
+POST /payments/{id}/authorise
+
+- Call processor
+- Handle outcomes
+- Update state
+- Log history
+
+Reject invalid transitions.

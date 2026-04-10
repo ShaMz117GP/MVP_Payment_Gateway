@@ -1,0 +1,8 @@
+Phase 4: Idempotency (CRITICAL)
+
+Implement:
+- Idempotency-Key support
+- Same request = same response
+- Same key + different payload = conflict
+
+Keep logic explicit and testable.

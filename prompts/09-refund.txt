@@ -1,0 +1,7 @@
+Phase 9: Refund (SIMPLE)
+
+POST /payments/{id}/refund
+
+- Only after capture
+- FULL refund only (keep simple)
+- Log history

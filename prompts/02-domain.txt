@@ -1,0 +1,11 @@
+Phase 2: Domain
+
+Create:
+- Payment entity
+- Status enum
+- History entity
+
+Keep lifecycle simple:
+Created -> Authorised -> Captured -> Refunded
+
+No fancy patterns.

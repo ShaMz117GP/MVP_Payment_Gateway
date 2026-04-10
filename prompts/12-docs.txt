@@ -1,0 +1,10 @@
+Phase 12: Docs
+
+Create:
+- README
+- SOLUTION
+
+Explain:
+- What you built
+- What you left out
+- Why

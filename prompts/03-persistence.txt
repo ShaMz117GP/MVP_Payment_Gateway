@@ -1,0 +1,12 @@
+Phase 3: Persistence
+
+- EF Core
+- SQLite
+- DbContext
+
+Store:
+- Payments
+- History
+- Idempotency records
+
+Keep mappings simple.

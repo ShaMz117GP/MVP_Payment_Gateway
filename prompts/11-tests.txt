@@ -1,0 +1,8 @@
+Phase 11: Tests
+
+Focus on:
+- Idempotency
+- Lifecycle
+- One failure path
+
+Keep minimal but meaningful.
