@@ -1,0 +1,25 @@
+Duplicate payment protection is fully implemented and enforced at both the application and persistence layers using idempotency handling.
+
+In the original Loom walkthrough, I mistakenly forgot to demo the main critical feature regarding the Idempotency and the prevention of double charging. 
+A short addendum video has been included to explicitly demonstrate this behaviour.
+
+Idempotency Demo: see video Idempotency Demo.mp4
+
+The addendum demonstrates:
+
+Submitting an initial payment request
+Re-submitting the same request (duplicate payload / idempotency key)
+Prevention of a second charge
+UI feedback indicating the duplicate request
+Confirmation via payment history / audit trail
+
+Reproduction Steps:
+
+Submit a valid payment request
+Re-submit the same request with the same idempotency key or payload
+Observe:
+No second charge is created
+UI displays duplicate/error message
+Audit trail reflects the correct state without duplication
+
+This behaviour was prioritised as it is the most critical requirement in payment systems to ensure financial correctness and prevent double charging.
