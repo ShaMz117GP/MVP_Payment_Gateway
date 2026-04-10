@@ -52,7 +52,8 @@ public sealed class PaymentStore
                 return (500, new { error = "Failed to deserialize stored idempotent response." });
             }
 
-            return (existing.ResponseStatusCode, storedResponse);
+            // Stored body was saved on first create with IdempotentReplay=false; replays must indicate replay.
+            return (existing.ResponseStatusCode, storedResponse with { IdempotentReplay = true });
         }
 
         var payment = new Payment

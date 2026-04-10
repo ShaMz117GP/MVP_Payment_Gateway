@@ -24,6 +24,8 @@ public sealed class PaymentStoreTests
 
         var firstResponse = Assert.IsType<CreatePaymentResponse>(first.Response);
         var replayResponse = Assert.IsType<CreatePaymentResponse>(replay.Response);
+        Assert.False(firstResponse.IdempotentReplay);
+        Assert.True(replayResponse.IdempotentReplay);
         Assert.Equal(firstResponse.Payment.Id, replayResponse.Payment.Id);
         Assert.Equal(firstResponse.Payment.Status, replayResponse.Payment.Status);
         Assert.Equal(firstResponse.Payment.CreatedAt, replayResponse.Payment.CreatedAt);
